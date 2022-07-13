@@ -3,7 +3,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -29,10 +28,10 @@ class SplashScreen extends StatelessWidget {
             Flash(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: const [
                   Text(
                     "BRT",
-                    style: GoogleFonts.rubik(
+                    style: TextStyle(
                         color: Colors.white,
                         wordSpacing: 5,
                         letterSpacing: 10,

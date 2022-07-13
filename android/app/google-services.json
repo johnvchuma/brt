@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "1098780155952",
+    "firebase_url": "https://brt-project-17100-default-rtdb.firebaseio.com",
     "project_id": "brt-project-17100",
     "storage_bucket": "brt-project-17100.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1098780155952:android:584126b890ddb3d7358df5",
+        "mobilesdk_app_id": "1:1098780155952:android:e8046bed5100c887358df5",
         "android_client_info": {
           "package_name": "com.johnjava.brt"
         }

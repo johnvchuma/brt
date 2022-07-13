@@ -1,7 +1,8 @@
-// ignore_for_file: prefer_const_constructors, avoid_print
+// ignore_for_file: prefer_const_constructors, avoid_print, unused_import, import_of_legacy_library_into_null_safe
 
 import 'package:brt/controller/auth_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatelessWidget {
@@ -16,9 +17,17 @@ class LoginPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Spacer(),
+            Icon(
+              MaterialCommunityIcons.bus,
+              color: Colors.blue,
+              size: 70,
+            ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
               "Sign in to BRT",
-              style: GoogleFonts.rubik (
+              style: TextStyle(
                   color: Colors.black87,
                   fontWeight: FontWeight.w800,
                   fontSize: 25),
@@ -40,9 +49,9 @@ class LoginPage extends StatelessWidget {
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
-                    color: Colors.grey[100],
+                    color: Colors.blue,
                     borderRadius: BorderRadius.circular(30),
-                    border: Border.all(color: Colors.black12)),
+                    border: Border.all(color: Colors.blue)),
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 30),
                   child: Row(
@@ -57,7 +66,7 @@ class LoginPage extends StatelessWidget {
                       ),
                       Text("Sign in with google",
                           style: TextStyle(
-                              color: Colors.black87,
+                              color: Colors.white,
                               fontWeight: FontWeight.w600,
                               fontSize: 17)),
                     ],
